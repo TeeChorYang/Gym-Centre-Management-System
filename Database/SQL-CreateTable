@@ -1,0 +1,56 @@
+CREATE TABLE staff (
+    id int,
+    username varchar(255),
+    password varchar(255),
+    name varchar(255),
+    email varchar(255),
+    phone varchar(255),
+    is_admin boolean
+);
+
+CREATE TABLE trainers (
+    id int,
+    username varchar(255),
+    password varchar(255),
+    name varchar(255),
+    email varchar(255),
+    phone varchar(255),
+    staffId int
+);
+
+CREATE TABLE customers (
+    id int,
+    username varchar(255),
+    password varchar(255),
+    name varchar(255),
+    email varchar(255),
+    phone varchar(255)
+);
+
+CREATE TABLE classes (
+    id int,
+    name varchar(255),
+    trainerId int
+);
+
+CREATE TABLE customers_has_classes (
+    id int,
+    customerId int,
+    classId int
+);
+
+CREATE TABLE payments (
+    id int,
+    customerId int,
+    classId int,
+    amount float
+);
+
+CREATE TABLE comments (
+    id int,
+    customerId int,
+    classId int,
+    trainerId int,
+    comment longtext,
+    date date
+);

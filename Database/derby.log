@@ -1,0 +1,14 @@
+Sat May 18 19:46:19 SGT 2024 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Sat May 18 19:46:31 SGT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-018f-8b86-35a6-ffffeeb8f04f 
+on database directory C:\Users\TheOne\Documents\NetBeansProjects\EPDA-Assignment\Database\EPDA with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/C:/Users/TheOne/GlassFish_Server_4.1.2/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Users\TheOne\GlassFish_Server_4.1.2\javadb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\TheOne\Documents\NetBeansProjects\EPDA-Assignment\Database
+Database Class Loader started - derby.database.classpath=''
